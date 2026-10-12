@@ -8,7 +8,7 @@ var containsDuplicate = function(nums) {
           return true;
         }
 
-        set.add(nums[i],i)
+        set.add(nums[i])
     }
 
     return false;
